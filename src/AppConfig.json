@@ -1,0 +1,30 @@
+{
+    "ClientId": "5619554d-9e02-4953-9f94-48a2e499eb54",
+    "TenantUrl": "https://securitasgroupnam.sharepoint.com",
+    "Environment": {
+        "Dev": {
+            "appInsightsKey": "72d730be-fdcc-4f74-95ce-b13a7b5c8a4e",
+            "SPODashboardAPI": "https://nareportingportalwebapi-dev.azurewebsites.net",
+            "FunctionAPI": "https://nareportingportalfunctions-dev.azurewebsites.net",
+            "RootSiteURL": "/sites/SecuritasNAReportingPortalTestDev/",
+            "MaxFileDownloadSize": 50,
+            "HelpManualPath": "/sites/SecuritasNAReportingPortalDev/HelpFiles/Report_Dashboard_Help_Document.pdf"
+        },
+        "Test": {
+            "appInsightsKey": "b540d047-9b1e-485f-a068-4abc28a8fbb9",
+            "SPODashboardAPI": "https://nareportingportalwebapi-test.azurewebsites.net",
+            "FunctionAPI": "https://nareportingportalfunctions-test.azurewebsites.net",
+            "RootSiteURL": "/sites/SecuritasNAReportingPortalTest/",
+            "MaxFileDownloadSize": 50,
+            "HelpManualPath": "/sites/SecuritasNAReportingPortalTest/HelpFiles/Report_Dashboard_Help_Document.pdf"
+        },
+        "Prod": {
+            "appInsightsKey": "72d730be-fdcc-4f74-95ce-b13a7b5c8a4e",
+            "SPODashboardAPI": "https://nareportingportalwebapi.azurewebsites.net",
+            "FunctionAPI": "https://nareportingportalfunctions.azurewebsites.net",
+            "RootSiteURL": "/sites/SecuritasNAReportingPortal/",
+            "MaxFileDownloadSize": 50,
+            "HelpManualPath": "/sites/SecuritasNAReportingPortal/HelpFiles/Report_Dashboard_Help_Document.pdf"
+        }
+    }
+}

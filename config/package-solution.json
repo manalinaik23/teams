@@ -1,0 +1,27 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "na-reporting-portal-client-side-solution",
+    "id": "c9de80c7-e559-4fb0-ad97-8ff889f4bde8",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "isDomainIsolated": false,
+    "webApiPermissionRequests": [
+      {
+        "resource": "US_SPODashBoard_WebAPI",
+        "scope": "user_impersonation"
+      },
+      // {
+      //   "resource": "ReportingPortalAPIADApp",
+      //   "scope": "user_impersonation"
+      // },
+      {
+        "resource": "Microsoft Graph",
+        "scope": "Sites.Read.All"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/na-reporting-portal.sppkg"
+  }
+}

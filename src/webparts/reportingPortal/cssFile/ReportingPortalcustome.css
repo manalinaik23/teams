@@ -1,0 +1,18 @@
+
+.CanvasZone>div{
+    max-width:100% !important;
+  
+}
+.CanvasZone > div:first-child{
+    width:100% !important;
+  
+}
+.CanvasZone {
+padding: 0 1px !important;
+}
+
+.modal-body > iframe {
+    min-height: 90vh!important;
+}
+
+
